@@ -1,0 +1,20 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/iter-5.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/treeify": "^1.0.0",
+    "pg": "^7.18.1",
+    "reflect-metadata": "^0.1.13",
+    "treeify": "^1.1.0",
+    "typeorm": "^0.2.22",
+    "typescript": "^3.7.5"
+  }
+}

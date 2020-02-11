@@ -1,0 +1,22 @@
+[
+  {
+    "name": "test",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5501,
+    "username": "db",
+    "password": "db",
+    "database": "db",
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+      "./src/iter-6/*.entity.ts"
+    ],
+    "migrations": [
+      "migrations/**/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "migrations"
+    }
+  }
+]
